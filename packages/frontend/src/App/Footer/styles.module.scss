@@ -1,7 +1,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 4.2rem;
+  height: 0.5rem;
   bottom: 0;
   background: #424242;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
@@ -13,95 +13,95 @@
   }
 }
 
-.right,
-.middle {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
+// .right,
+// .middle {
+//   align-items: center;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: flex-end;
+// }
 
-.left {
-  padding-left: 1.42rem;
-}
+// .left {
+//   padding-left: 1.42rem;
+// }
 
-.right {
-  padding-right: 1.42rem;
-}
+// .right {
+//   padding-right: 1.42rem;
+// }
 
-.patreon {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-right: 1.5rem;
-  position: relative;
+// .patreon {
+//   align-items: center;
+//   display: flex;
+//   justify-content: center;
+//   margin-right: 1.5rem;
+//   position: relative;
 
-  .patreonLogo {
-    height: 2.3rem;
-    margin-bottom: -0.5rem;
-  }
+//   .patreonLogo {
+//     height: 2.3rem;
+//     margin-bottom: -0.5rem;
+//   }
 
-  .patreonText {
-    position: absolute;
-    width: 10rem;
-    left: 11rem;
-  }
-}
-.middle {
-  justify-content: center;
-  font-size: 0;
-  line-height: 0;
-}
+//   .patreonText {
+//     position: absolute;
+//     width: 10rem;
+//     left: 11rem;
+//   }
+// }
+// .middle {
+//   justify-content: center;
+//   font-size: 0;
+//   line-height: 0;
+// }
 
-.discordLogo {
-  height: 2.25rem;
-  margin-bottom: -0.5rem;
-}
+// .discordLogo {
+//   height: 2.25rem;
+//   margin-bottom: -0.5rem;
+// }
 
-.github {
-  a,
-  a:any-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.25rem;
-  }
+// .github {
+//   a,
+//   a:any-link {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: #fff;
+//     text-decoration: none;
+//     font-size: 1.25rem;
+//   }
 
-  .githubLogo {
-    fill: #fff;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: 1.5rem;
-  }
-}
+//   .githubLogo {
+//     fill: #fff;
+//     width: 1.5rem;
+//     height: 1.5rem;
+//     margin-right: 1.5rem;
+//   }
+// }
 
-.aos {
-  align-items: center;
-  display: flex;
-  text-decoration: none;
-  font-size: 0.7rem;
-  color: #fdd835;
+// .aos {
+//   align-items: center;
+//   display: flex;
+//   text-decoration: none;
+//   font-size: 0.7rem;
+//   color: #fdd835;
 
-  img {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.5rem;
-  }
-}
+//   img {
+//     width: 2rem;
+//     height: 2rem;
+//     margin-right: 0.5rem;
+//   }
+// }
 
-@keyframes glowing {
-  0% {
-    background-color: #2ba805;
-    box-shadow: 0 0 3px #2ba805;
-  }
-  50% {
-    background-color: #49e819;
-    box-shadow: 0 0 10px #49e819;
-  }
-  100% {
-    background-color: #2ba805;
-    box-shadow: 0 0 3px #2ba805;
-  }
-}
+// @keyframes glowing {
+//   0% {
+//     background-color: #2ba805;
+//     box-shadow: 0 0 3px #2ba805;
+//   }
+//   50% {
+//     background-color: #49e819;
+//     box-shadow: 0 0 10px #49e819;
+//   }
+//   100% {
+//     background-color: #2ba805;
+//     box-shadow: 0 0 3px #2ba805;
+//   }
+// }

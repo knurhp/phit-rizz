@@ -23,9 +23,9 @@
     "cytoscape": "^3.23.0",
     "cytoscape-fcose": "^2.1.0",
     "fetchler": "^0.0.21",
+    "fuzzyset": "^1.0.7",
     "lodash": "^4.17.21",
     "luxon": "^3.0.4",
-    "sass": "^1.55.0",
     "react": "^18.2.0",
     "react-bootstrap-table-next": "^4.0.3",
     "react-bootstrap-table2-overlay": "^2.0.0",
@@ -35,6 +35,7 @@
     "react-scripts": "^5.0.1",
     "react-spring": "^9.5.5",
     "redux": "^4.2.0",
+    "sass": "^1.55.0",
     "typescript": "^4.8.4",
     "web-worker": "^1.2.0"
   },

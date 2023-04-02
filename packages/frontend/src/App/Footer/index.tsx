@@ -5,7 +5,7 @@ import styles from './styles.module.scss'
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <div className={styles.left}>
+    {/* <div className={styles.left}>
       <div className={styles.patreon}>
         <a
           href="https://www.patreon.com/portaler/membership"
@@ -18,11 +18,11 @@ const Footer = () => (
           You can get private portaler for your guild from here
         </strong>
       </div>
-    </div>
+    </div> */}
     <div className={styles.middle}></div>
     <div className={styles.right}>
       <div className={styles.twitter}></div>
-      <div className={styles.github}>
+      {/* <div className={styles.github}>
         <a
           href="https://github.com/aut1sto/portaler-modern"
           target="_blank"
@@ -39,7 +39,7 @@ const Footer = () => (
         >
           <img src={discordLogo} className={styles.discordLogo} alt="discord" />
         </a>
-      </div>
+      </div> */}
     </div>
   </footer>
 )
